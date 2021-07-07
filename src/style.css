@@ -1,0 +1,636 @@
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+p{
+	color: #404040;
+	font-size: 16px;
+    line-height: 21px;
+}
+.top_bar{
+	background: #005C00;
+	padding: 15px 0;
+}
+.top_bar a{
+	color: #fff;
+	font-size: 16px;
+}
+.top_bar a i{
+font-size: 16px;
+padding-left: 5px;
+}
+.top_bar select{
+	background: #005C00;
+	color:#fff;
+	border:0;
+}
+header{
+	padding: 15px 0;
+}
+header li {
+    display: inline-block;
+    padding: 10px 10px; 
+
+}
+header ul {
+    text-align: right;
+    margin-bottom: 0;
+}
+header ul a{
+	color: #404040;
+	font-size: 16px;
+	border-bottom:2px solid transparent;
+	display: block;
+	transition: .2s;
+}
+header ul a:hover{
+	color: #005C00;
+	border-color: #005C00;
+	text-decoration: none;
+}
+.logo img{
+	max-width: 150px;
+	width: 100%;
+}
+.Woola_banner {
+    display: flex;
+    background: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    justify-content: center;
+        align-items: center;
+}
+.Woola_banner .col-md-7 {
+    padding-left: 75px;
+}
+.Woola_banner img{
+	width: 100%;
+	height:auto;
+}
+.Woola_banner .container{
+	position: absolute;
+}
+.Woola_banner h2{
+  color: #005C00;
+    font-size: 46px;
+    text-transform: capitalize;
+    font-weight: 800;
+} 
+.Woola_banner a {
+       background: #105B10;
+    padding: 10px 36px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    float: left;
+    margin-top: 11px;
+}
+.icon_sec{
+	background: #F4EADF;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.icon_sec h2{
+	color: #005C00;
+    font-size: 21px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.icon_sec img {
+    max-width: 105px;
+    width: 100%;
+    height: auto;
+}
+.icon_sec p {
+    max-width: 275px;
+    margin: 0 auto;
+}
+.style_round:before{
+	height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    top: -8px;
+    z-index: 1;
+    opacity: .5;
+    background: rgb(187,193,181);
+    left: -16px;
+    z-index: -2;
+}
+.style_round{
+	position: relative;
+	z-index: 999;
+	opacity: 1.5;
+}
+.eco-friend{
+	width: 100%;
+	float: left;
+	    padding: 75px 0;
+}
+.eco-friend h2{
+	color: #005C00; 
+	font-size: 31px;
+	margin-bottom: 10px;
+    max-width: 407px;
+    font-weight: 700;
+}
+.eco-friend a {
+    background: #105B10;
+    padding: 10px 36px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    float: left;
+    margin-top: 11px;
+}
+.eco-friend img{
+	width: 100%;
+	height: auto;
+}
+
+section.pillow_product {
+    background: #F3F3F3;
+	 width: 100%;
+	 float: left;
+    padding: 77px 0;
+}
+.products_in {
+    display: flex;
+    border-top: 4px solid #005C00;
+    padding: 40px 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 24px #00000029;
+    margin: 25px 0;
+            border-radius: 4px;
+}
+.pillow_product h2{
+		font-size:31px; 
+	color: #005C00;
+	font-weight: 700;
+}
+.products_in img{
+	max-width:84px;
+	height: auto;
+	margin-left: 29px;
+}
+.products_in h3{
+	font-size: 22px; 
+	color: #005C00;
+	align-self: center;
+	padding-left: 30px;
+}
+.pillow_product a{
+	 background: #105B10;
+    padding: 10px 36px;
+    border-radius: 25px;
+    color: #FFFFFF;
+        display: inline-block;
+    margin-top: 15px;
+}
+.Brain_custom{
+	width: 100%;
+	float: left;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.Brain_custom img{
+	width: 100%;
+	height: auto;
+	/*max-height: 607px;*/
+}
+.Brain_custom .container{
+	position: absolute;
+	bottom:0;
+}
+
+.Brain_custom .container .row{
+	justify-content: center;
+	text-align: center;
+}
+.Brain_custom h2{
+	color: #fff;
+	font-size: 31px;
+	font-weight: 700;
+}
+.Mattress_custom{
+	width: 100%;
+	float: left;
+}
+.Mattress_custom img{
+	max-width: 500px;
+	width: 100%;
+}
+.Mattress_custom h2{
+		font-size:31px; 
+	color: #005C00;
+	font-weight: 700;
+}
+.Mattress_custom a{
+	 background: #105B10;
+    padding: 10px 36px;
+    border-radius: 25px;
+    color: #FFFFFF;
+        display: inline-block;
+    margin-top: 15px;
+}
+.Mattress_custom .col-md-6{
+padding-top: 77px;
+}
+.Mattress_custom .mattress_in {
+    max-width: 436px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Distributor{
+	width: 100%;
+	float: left;background: url("../src/green_bk.png");
+	background-size: 100%;
+	padding: 50px 0;
+	    margin: 70px 0;
+}
+.Distributor p {
+    color: #fff;
+    max-width: 671px;
+    margin: 0 auto;
+}
+.Distributor h2{
+color: #fff;
+font-size: 31px;
+font-weight: 700;
+}
+.Distributor a{
+	 background:#FFFFFF ;
+    padding: 10px 36px;
+    border-radius: 25px;
+    color:#105B10 ;
+        display: inline-block;
+    margin-top: 15px;
+}
+.wales1{
+	/*background: #005C00;*/
+	   /* padding: 127px 0;*/
+	    align-self: center;
+}
+.prices-of-wales{
+	background: #005C00;
+	width: 100%;
+	float:left;
+}
+.wale1_in h2{
+	font-size: 31px;
+	color: #fff;
+}
+.wale1_in a{
+	 background:#FFFFFF ;
+    padding: 10px 36px;
+    border-radius: 25px;
+    color:#105B10 ;
+        display: inline-block;
+    margin-top: 15px;
+}
+.wale1_in {
+    max-width: 377px;
+    margin-left: auto;
+        margin-right: 48px;
+}
+.wales2 img{
+	width: 100%;
+	height: auto;
+}
+footer{
+	margin-top: 0px;
+	padding: 50px 0 0;
+	background: #005C00;
+	width: 100%;
+	float: left;
+}
+footer img{
+	max-width: 150px;
+	width: 100%;
+	height: auto;
+}
+footer h4{
+	color: #fff;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+footer p{
+	color: #fff;
+}
+footer a{
+	color: #fff;
+	font-size: 16px;
+}
+.footer-main-icon{
+	display: flex;
+}
+.footer-main-in{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    margin-right: 5px;
+    transition: .3s;
+
+}
+.footer-main-in:hover{
+	background:#3D833D;
+}
+.footer-main-in a{
+	color:#3D833D;
+}
+.footer-main-in:hover a{
+	color: #fff;
+}
+.footer-Contact i.fa {
+	margin-top: 5px;
+    height: 14px;
+    display: inline-block;
+    height: 25px;
+    padding-right: 8px;
+}
+.testomonial{
+	padding: 76px 0;
+	width: 100%;
+	float: left;
+}
+.testomonial h2{
+			font-size:31px; 
+	color: #005C00;
+	font-weight: 700;
+	    padding-bottom: 22px;
+} 
+.testo_in img{
+	max-width: 100px;
+	width: 100%;
+}
+.testo_in {
+    background: #fff;
+    padding: 30px 22px;
+    box-shadow: 0px 13px 24px #00000014;
+    border-radius: 5px;
+    min-height: 437px;
+}
+.testo_in h5{
+	    color: #000;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.testo_in h6{
+	color: #005C00;
+	font-size:18px;
+	font-weight: 600;
+	font-style: italic;
+}
+.testo_in span{
+	color:#FFC107;
+	font-size: 17px;
+}
+
+
+/* about*/
+.main-banner{
+	background: cover;
+	background-repeat: no-repeat;
+	padding: 110px 0;	
+	width: 100%;
+	float: left;
+}
+.Woola_about-banner{
+	background: url("../src/bt-and2222.png");
+}
+.main-banner h3{
+text-align: center;
+color: #fff;
+font-size: 25px;
+font-weight:600;
+}
+.icon-about-us{
+	background-color:#FBFBFB;
+	width: 100%;
+	float: left;
+	padding: 80px 0;
+}
+.icon-about-us img{
+	max-width: 70px;
+	height: auto;
+	width: 100%;
+    transition: .2s
+}
+.icon-about-us img:hover {
+    transform: scale(1.2);
+}
+.icon-about-us h3 {
+    color: #005C00;
+    font-size: 23px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.icon-about-us  p {
+    max-width: 303px;
+    margin: 0 auto;
+}
+.abt-shadow {
+    float: left;
+    width: 100%;
+    background: #fff;
+        border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+        border-bottom-left-radius: 30px;
+     border-bottom-right-radius: 70px;
+         box-shadow: 0px 3px 24px #00000029;
+         overflow: hidden;
+}
+.abt-shadow_1 {
+    width: 100%;
+    float: left;
+    background: #005C00;
+    padding: 15px 0;
+
+}
+.abt-shadow_2 {
+    width: 100%;
+    padding: 35px;
+    float: left;
+    background: #fff;
+        min-height: 275px;
+        text-align: center;
+
+}
+.abt-shadow h2 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+.abt-shadow_1 p{
+	margin: 0;
+}
+section.shadow-sec {
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+}
+
+section.bio-sec {
+    width: 100%;
+    float: left;
+     background: url('../src/c-bk_banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+        text-align: center;
+    padding: 100px 0;
+}
+section.bio-sec img {
+    max-width: 187px;
+    width: 100%;
+    height: auto;
+    transition: .3s
+}
+section.bio-sec img:hover {
+    transform: scale(1.1);
+}
+section.bio-sec h3 {
+    color: #005C00;
+    font-size: 20px;
+    margin-top: 25px;
+}
+/*blog*/
+.blog-banner{
+	background: url("../src/bt-and2222.png");
+}
+.blog-natural img{
+	width: 100%;
+	transform: scale(1.1);
+}
+.blog-natural .col-md-7{
+	overflow: hidden;
+}
+section.blog-natural {
+    padding: 50px;
+    width: 100%;
+    float: left;
+}
+.blog-natural span , .blog-natural a span{
+	color: #005C00;
+	font-size: 12px;
+}
+.blog-natural h2{
+color: #005C00;
+    font-size: 27px;
+    font-weight: 700;
+    max-width: 330px;
+}
+.blog-natural p {
+    max-width: 459px;
+}
+.blog-product-img {
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.blog-product-img img{
+	width: 100%;
+	height: auto;
+    transition: .3s;
+    transform: scale(1);
+}
+.blog-product-img img:hover {
+    transform: scale(1.2);
+}
+.blog-product-in {
+    position: absolute;
+    background:#005C00;
+    padding: 5px 25px;
+    right: 0;
+    bottom: 9px;
+    color: #fff;
+    font-size: 11px;
+}
+
+section.blog-product .col-md-4 {
+    padding: 15px;
+}
+section.blog-product h2 {
+    color: #005C00;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0;
+    float: left;
+    width: 100%;
+}
+section.blog-product a span{
+color: #005C00;
+    font-size: 12px;
+    }
+    /*====---contact-us-----=====*/
+    .contact-banner{
+    background: url("../src/bt-and2222.png");
+}
+.contact-social_in {
+   max-width: 339px;
+    width: 100%;
+        min-height: 217px;
+    float: left;
+    background: #fff;
+    padding: 42px 0;
+    border-radius: 37px 37px 104px 37px;
+    box-shadow: 0px 3px 24px #00000029;
+    text-align: center;
+    margin: auto;
+}
+.contact-social_in i.fa {
+    display: block;
+    color: #005C00;
+    font-size: 73px;
+}
+.contact-social_in a {
+    color: #404040;
+    padding-top: 18px;
+    display: block;
+        font-size: 14px;
+}
+section.contact-social {
+    background: #F5F5F5;
+    width: 100%;
+    float: left;
+    padding: 98px 0;
+}
+.form-pugin-sec{
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 70px 0;
+    text-align: center;
+}
+.form-pugin-sec h2{
+    color: #005C00;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom:20px;
+}
+.form-pugin-sec p {
+    margin: 0 auto;
+    max-width: 817px;
+}
+section.copyright {
+    width: 100%;
+    margin-top:50px;
+    float: left;
+    background: #464646;
+    padding: 20px 0;
+}
+section.copyright p{
+	color: #fff;
+	margin: 0;
+}
+section.copyright span {
+    padding: 0 10px;
+}
