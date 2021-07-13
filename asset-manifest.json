@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/reactlivewebsite/static/css/main.85ab2c50.chunk.css",
+    "main.js": "/reactlivewebsite/static/js/main.53b4260d.chunk.js",
+    "main.js.map": "/reactlivewebsite/static/js/main.53b4260d.chunk.js.map",
+    "runtime-main.js": "/reactlivewebsite/static/js/runtime-main.c640e695.js",
+    "runtime-main.js.map": "/reactlivewebsite/static/js/runtime-main.c640e695.js.map",
+    "static/js/2.7123af0a.chunk.js": "/reactlivewebsite/static/js/2.7123af0a.chunk.js",
+    "static/js/2.7123af0a.chunk.js.map": "/reactlivewebsite/static/js/2.7123af0a.chunk.js.map",
+    "index.html": "/reactlivewebsite/index.html",
+    "static/css/main.85ab2c50.chunk.css.map": "/reactlivewebsite/static/css/main.85ab2c50.chunk.css.map",
+    "static/js/2.7123af0a.chunk.js.LICENSE.txt": "/reactlivewebsite/static/js/2.7123af0a.chunk.js.LICENSE.txt",
+    "static/media/6-3.ddf5aafd.png": "/reactlivewebsite/static/media/6-3.ddf5aafd.png",
+    "static/media/banner123.64090cb4.png": "/reactlivewebsite/static/media/banner123.64090cb4.png",
+    "static/media/beg123.eb59316b.png": "/reactlivewebsite/static/media/beg123.eb59316b.png",
+    "static/media/brain_bk.63104c95.svg": "/reactlivewebsite/static/media/brain_bk.63104c95.svg",
+    "static/media/brain_vedio.7c83cb2b.png": "/reactlivewebsite/static/media/brain_vedio.7c83cb2b.png",
+    "static/media/style.css": "/reactlivewebsite/static/media/green_bk.76fa493e.png",
+    "static/media/eco-bne.3ead99e9.png": "/reactlivewebsite/static/media/eco-bne.3ead99e9.png",
+    "static/media/greenright.8dfda292.jpg": "/reactlivewebsite/static/media/greenright.8dfda292.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c640e695.js",
+    "static/js/2.7123af0a.chunk.js",
+    "static/css/main.85ab2c50.chunk.css",
+    "static/js/main.53b4260d.chunk.js"
+  ]
+}
